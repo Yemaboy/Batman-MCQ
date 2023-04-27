@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Quiz sur Batman</title>
+</head>
+<body>
+    <h1>BATMAN</h1>
+    <h2>Question 1:</h2>
+        <h2>Quelle est la véritable identité de Batman ?: </h2>: <select name="nom">
+                   <option value="Clark Kent"> Clark Kent </option>
+                    <option value="Bruce Willis"> Bruce Willis </option>
+                    <option value="Harvey Dent"> Harvey Dent </option>
+                    <option value="Bruce Wayne" id="correct1">Bruce Wayne </option>
+                </select> <br><br><br>
+        
+                <h2>Question 2:</h2>
+                <h2>Quelle est la ville de Batman ?</h2>
+                <br><br>
+                <input type="radio" name="answer2">Metropolis</input>
+                <input type="radio" name="answer2bis" id="correct2">Gotham</input>
+            
+                <br><br>
+                <h2>Question 3:</h2>
+                <h2>Quel(s) est/sont ses acolyte(s) (dans la liste ) ?</h2>
+                <br><br>
+                <input type="checkbox" name="answer3">Red Hood</input>
+                <input type="checkbox" name="answer3bis">Bane</input>
+                <input type="checkbox" name="answer3bbis" id="correct3">Nightwing</input>
+                <br><br>
+                <h2>Question 4:</h2>
+                <h2>Quelle est le nom de son majordome ?</h2>
+                <br><br>
+                <input type="radio" name="answer4bis" id="correct4">Alfred Pennyworth</input>
+                <input type="radio" name="answer4bis">Alfred Winchester</input>
+                <br><br>
+                <h2>Question 5:</h2>
+                <label for="quantity">Combien y a t-il eu de Robin ?:</label>
+                <input type="number" id="quantity" name="answer5" min= "1"   max="6">
+                <br><br>
+
+                  <input type="submit" value="Valider" name="valider" onclick="score()">
+
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>
